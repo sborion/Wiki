@@ -91,6 +91,8 @@ To configure SSO Authentication, you will need to :
 * AUTH_TYPE value in var.php set to **4**
 * Apache / Kerberos configuration to pass ticket to OCS Webconsole
 
+If you want to remove the domain from the logins in the form login@domain, set SSO_DEL_DOMAIN to **true** 
+
 **`Note: We won't provide configuration for Kerberos and Apache since its not related to OCS Inventory`**
 
 
